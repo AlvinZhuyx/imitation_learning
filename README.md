@@ -7,6 +7,8 @@ To run the code, please first install the stable baseline package. Please follow
 ## Run each experiment
 In our project, we do experiments on CartPole-v1, Pendulum-v0, LunarLander Continuous-v2
 
+### PPO + GAIL
+
 #### CartPole-v1
 <div align="center">
   <img src = './images/CartPole.png' width = '200px' height = '200px'>
@@ -39,3 +41,8 @@ For LunarLander Continous-v2, we also train the expert model for 3 times and pic
 ```
 > python PPO_multienv_Lunar.py
 ```
+
+
+### SAC + GAIL
+Please see the colab file Copy_of_SAC_GAIL.ipynb 
+
