@@ -8,7 +8,7 @@ To run the code, please first install the stable baseline package. Please follow
 In our project, we do experiments on CartPole-v1, Pendulum-v0, LunarLander Continuous-v2
 
 #### CartPole-v1
-![Cart_pole](/images/CartPole.png {width=40px height=40px})
+![image](/images/CartPole.png){width=40px height=40px}
 CartPole-v1 is an easy task, we train our expert model for 1 time with the default parameter setting here. To reproduce our result, run:
 ```
 python PPO_CartPole.py
