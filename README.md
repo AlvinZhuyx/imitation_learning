@@ -13,7 +13,7 @@ In our project, we do experiments on CartPole-v1, Pendulum-v0, LunarLander Conti
 </div>
 CartPole-v1 is an easy task, we train our expert model for 1 time with the default parameter setting here. To reproduce our result, run:
 ```
-python PPO_CartPole.py
+> python PPO_CartPole.py
 ```
 
 #### Pendulum-v0
@@ -22,7 +22,7 @@ python PPO_CartPole.py
 </div>
 Based on our experiences, Pendulum-v0 is harder than CartPole-v1. Thus we train the expert model for 3 times and pick the best one as our final model. We use multiprocessing model and environment to facilitate training the expert model. To reproduce our results, run:
 ```
-python PPO_multienv_pendulum.py
+> python PPO_multienv_pendulum.py
 ```
 
 #### LunarLander Continuous-v2
@@ -31,5 +31,5 @@ python PPO_multienv_pendulum.py
 </div>
 For LunarLander Continous-v2, we also train the expert model for 3 times and pick the best one as our final model. Again, we use multiprocessing model and environment to facilitate training the expert model. To reproduce our results, run:
 ```
-python PPO_multienv_Lunar.py
+> python PPO_multienv_Lunar.py
 ```
