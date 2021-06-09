@@ -12,6 +12,10 @@ In our project, we do experiments on CartPole-v1, Pendulum-v0, LunarLander Conti
   <img src = './images/CartPole.png' width = '200px' height = '200px'>
 </div>
 CartPole-v1 is an easy task, we train our expert model for 1 time with the default parameter setting here. To reproduce our result, run:
+
+```
+> python PPO_multienv_pendulum.py
+```
 ```
 > python PPO_CartPole.py
 ```
