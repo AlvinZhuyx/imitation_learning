@@ -44,5 +44,5 @@ For LunarLander Continous-v2, we also train the expert model for 3 times and pic
 
 
 ### SAC + GAIL
-Please see the colab file Copy_of_SAC_GAIL.ipynb 
+For SAC + GAIL, we put our colab code for LunarLander Continous-v2 here. Please see the colab file SAC_GAIL.ipynb 
 
