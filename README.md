@@ -16,10 +16,6 @@ CartPole-v1 is an easy task, we train our expert model for 1 time with the defau
 > python PPO_CartPole.py
 ```
 
-```
-> python main.py --dataset selfie2anime --phase test
-```
-
 #### Pendulum-v0
 <div align="center">
   <img src = './images/Pendulum.png' width = '200px' height = '200px'>
